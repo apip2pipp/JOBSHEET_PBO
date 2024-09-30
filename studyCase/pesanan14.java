@@ -19,9 +19,9 @@ public class pesanan14 {
 
     public String getDetailPesanan() {
         return "Detail Pesanan:\n" +
-               "Menu: " + menu.getInfo() + "\n" +
-               "Jumlah: " + jumlah + "\n" +
-               "Total Harga: " + totalHarga;
+        "Nama " + pelanggan.getPelangan() + "\n" +
+            "Menu: " + menu.getInfo() + "\n" +
+            "Jumlah: " + jumlah + "\n" +
+            "Total Harga: " + totalHarga;
     }
-    
 }

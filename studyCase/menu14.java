@@ -17,12 +17,10 @@ public class menu14 {
 
     public double getHarga() {
         return harga;
-        
     }
 
     public void setHarga(double harga) {
         this.harga = harga;
-        
     }
 
     public void tambahPesanan(pesanan14 pesanan) {
@@ -30,6 +28,9 @@ public class menu14 {
     }
 
     public String getInfo() {
-        return "Menu: " + namaMakanan + ", Harga: " + getHarga() + ", Kategori: " + kategori;
+        return "" + namaMakanan + "\n" 
+        + "Harga: " + getHarga() + "\n" 
+        + "Kategori: " + kategori + "\n" ;
+        
     }
 }

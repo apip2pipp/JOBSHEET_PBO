@@ -20,7 +20,7 @@ public class pelanggan14 {
         return pesanan;
     }
 
-    public String getInfo() {
+    public String getPelangan() {
         return "Pelanggan: " + nama + ", ID: " + idPelanggan;
     }
 }
