@@ -1,11 +1,11 @@
 package josbheet4.rumahsakit14;
 
 
-public class pegawai14 {
+public class pegawai {
     private String nip14;
     private String nama14;
 
-    public pegawai14(String nip14, String nama14){
+    public pegawai(String nip14, String nama14){
         this.nip14 = nip14;
         this.nama14 = nama14;
     }

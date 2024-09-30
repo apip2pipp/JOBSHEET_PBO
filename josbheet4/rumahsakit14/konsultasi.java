@@ -2,10 +2,10 @@ package josbheet4.rumahsakit14;
 import java.time.LocalDate;
 
 
-public class konsultasi14 {
+public class konsultasi {
     private LocalDate tanggal;
-    private pegawai14 dokter;
-    private pegawai14 perawat;
+    private pegawai dokter;
+    private pegawai perawat;
 
     public LocalDate getTanggal() {
         return tanggal;
@@ -15,19 +15,19 @@ public class konsultasi14 {
         this.tanggal = tanggal;
     }
     
-    public pegawai14 getDokter() {
+    public pegawai getDokter() {
         return dokter;
     }
     
-    public void setDokter(pegawai14 dokter) {
+    public void setDokter(pegawai dokter) {
         this.dokter = dokter;
     }
     
-    public pegawai14 getPerawat() {
+    public pegawai getPerawat() {
         return perawat;
     }
     
-    public void setPerawat(pegawai14 perawat) {
+    public void setPerawat(pegawai perawat) {
         this.perawat = perawat;
     }
     

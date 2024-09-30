@@ -3,10 +3,10 @@ package josbheet4.rumahsakit14;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class pasien14 {
+public class pasien {
     private String noRekamMedis;
     private String nama;
-    private ArrayList<konsultasi14>riwayatKonsultasi;
+    private ArrayList<konsultasi>riwayatKonsultasi;
 
     
 
@@ -34,7 +34,7 @@ public class pasien14 {
         if (!riwayatKonsultasi.isEmpty()) {
             info += "Riwayat konsultasi : \n";
 
-            for(konsultasi14 konsultasi :riwayatKonsultasi){
+            for(konsultasi konsultasi :riwayatKonsultasi){
                 info += konsultasi.getInfo();
             }
         } else {
@@ -46,15 +46,15 @@ public class pasien14 {
         return info;
     }
     
-    public pasien14(String noRekamMedis, String nama){
+    public pasien(String noRekamMedis, String nama){
         this.noRekamMedis = noRekamMedis;
         this.nama =  nama;
-        this.riwayatKonsultasi = new ArrayList<konsultasi14>();
+        this.riwayatKonsultasi = new ArrayList<konsultasi>();
         
     }
 
-    public void tambahKonsultasi(LocalDate tanggal, pegawai14 dokter,pegawai14 perawat) {
-        konsultasi14 konsultasi = new konsultasi14();
+    public void tambahKonsultasi(LocalDate tanggal, pegawai dokter,pegawai perawat) {
+        konsultasi konsultasi = new konsultasi();
         konsultasi.setTanggal(tanggal);
         konsultasi.setDokter(dokter);
         konsultasi.setPerawat(perawat);
