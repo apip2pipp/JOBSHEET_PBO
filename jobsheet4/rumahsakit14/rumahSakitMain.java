@@ -1,4 +1,4 @@
-package josbheet4.rumahsakit14;
+package jobsheet4.rumahsakit14;
 import java.time.LocalDate;
 
 public class rumahSakitMain {
